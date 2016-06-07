@@ -39,7 +39,7 @@
 <Script>
 function detail(name)
 {
- var r = confirm('This process can take upto few minutes. Lifetime report can take even more than 5 mins. Press OK to continue');
+ var r = confirm('This process can take up to few minutes. Lifetime report can take even more than 5 mins. Press OK to continue');
  if(r == true){
   url = '?time=' + document.getElementById('time').value + '&type='  + document.getElementById('type').value + '&name=' + name;
   window.open(url);
